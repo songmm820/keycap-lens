@@ -1,10 +1,6 @@
-/**
- * Tauri 通信常量
- */
+// Tauri 通信常量
 
-/**
- * Invoke 通信常量
- */
+/** Invoke 通信常量 */
 export const TAURI_INVOKE = {
     /** 预载  */
     PING: 'ping',
@@ -14,9 +10,8 @@ export const TAURI_INVOKE = {
     GET_LOCATION: 'get_windows_position'
 } as const
 
-/**
- * listen 通信常量
- */
+
+/** listen 通信常量 */
 export const TAURI_LISTEN = {
     /** 获取实时时间 */
     GET_LIVE_TIME: 'get_live_time'

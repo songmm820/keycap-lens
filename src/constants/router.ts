@@ -1,7 +1,6 @@
-/**
- * Router 路由 常量信息
- *
- */
+// Router 路由 常量信息
+
+export type RouterConstants = (typeof RouterConstants)[keyof typeof RouterConstants]
 
 export const RouterConstants = {
     /** 根路由 */
@@ -12,4 +11,3 @@ export const RouterConstants = {
     SYSTEM_SETTING: '/system-setting'
 } as const
 
-export type RouterConstants = (typeof RouterConstants)[keyof typeof RouterConstants]

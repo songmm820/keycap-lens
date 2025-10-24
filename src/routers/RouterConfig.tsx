@@ -7,7 +7,7 @@ import { createHashRouter, Navigate } from 'react-router-dom'
 import { LazyImportComponent } from '~/routers/RouterLazyLoad.tsx'
 import { lazy } from 'react'
 import MainLayout from '~/layouts/MainLayout.tsx'
-import { RouterConstants } from '~/constants/router-constants'
+import { RouterConstants } from '~/constants/router'
 
 const router = createHashRouter([
     {
